@@ -1,0 +1,23 @@
+{
+  "name": "odev",
+  "version": "1.0.0",
+  "description": "staj icin odev",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "Dovran Ovezberdiyev",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "formidable": "^3.5.2",
+    "nodemailer": "^6.10.0",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
